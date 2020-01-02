@@ -1,0 +1,8 @@
+dummy.edit:
+  path: '/hello-world'
+  defaults:
+    _controller: '\Drupal\dummy\Controller\DummyController::buildHelloWorld'
+    _title: 'Hello World'
+  requirements:
+    _dummy_access_check: 'TRUE'
+

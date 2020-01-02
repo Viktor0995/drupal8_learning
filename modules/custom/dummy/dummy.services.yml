@@ -1,0 +1,6 @@
+services:
+  dummy.access_checker:
+    class: Drupal\dummy\Access\MyAccessCheck
+    tags:
+      - { name: access_check, applies_to: _dummy_access_check }
+
